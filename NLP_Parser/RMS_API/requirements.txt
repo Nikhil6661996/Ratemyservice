@@ -13,7 +13,7 @@ Keras-Preprocessing==1.1.0
 Markdown==3.1.1
 mock==3.0.5
 mysql-connector==2.2.9
-nltk==3.4.3
+nltk==3.4.5
 numpy==1.16.4
 openpyxl==2.6.2
 pandas==0.24.2
