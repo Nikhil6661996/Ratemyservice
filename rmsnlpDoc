@@ -1,0 +1,40 @@
+NLP Documentation
+
+Technology Used : 
+    • Python Programming Language
+    • Modules Used in the Development:
+    1. Pandas   – For Handling the Data.
+
+    2. Numpy    – To Reduce the Computation Time.
+
+    3. Sklearn  – To Save and Load the Trained File for Sentiment Analysis.
+       
+    4. TextBlob – For Performing Training for Sentiment Analysis.
+
+    5. NLTK     – For Text operations like Ngram,Stemming,StopWords, Lemmatization,etc.
+
+    6. MySql    – For Handling of Database.
+
+
+Server Management:
+    • Gunicorn And Nginx Server is Used for the Deployment.
+    • To Start the Nginx Server : - sudo service nginx start/stop/restart and After Start the Nginx Server kill the already running Gunicorn Process.
+    • To Check the Project Process Id : - sudo initctl list
+    • To kill the Process Id : - sudo kill -9 PID 
+
+Project Location : 
+	varwww/html/ratemyservice_nlp
+Log File Location:	
+	varwww/html/ratemyservice_nlp/logs.txt
+
+
+ratemyservice_nlp Directory:
+    1. Venv => Virtual Environment to run the Application.
+    2. App.py => The Application or Program for the NLP Part.
+    3. Logs.txt => The Log file for the Debugging Process.
+    4. my_model.pkl => The pickle file for the Sentiment Analysis.
+    5. Wsgi.py => Application file used to run the app.py Application File.
+
+
+
+
